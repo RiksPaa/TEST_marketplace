@@ -1,0 +1,58 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "TEST_marketplace",
+  "description": "Personal Claude Code plugin marketplace by RiksPaa",
+  "owner": {
+    "name": "RiksPaa"
+  },
+  "plugins": [
+    {
+      "name": "git-summary",
+      "description": "Summarize recent git activity, commits, and open PRs in the current project.",
+      "author": { "name": "RiksPaa" },
+      "category": "development",
+      "source": "./plugins/git-summary",
+      "homepage": "https://github.com/RiksPaa/TEST_marketplace/tree/main/plugins/git-summary"
+    },
+    {
+      "name": "code-explainer",
+      "description": "Explain a file, function, or block of code in plain language without jargon.",
+      "author": { "name": "RiksPaa" },
+      "category": "development",
+      "source": "./plugins/code-explainer",
+      "homepage": "https://github.com/RiksPaa/TEST_marketplace/tree/main/plugins/code-explainer"
+    },
+    {
+      "name": "blue-palette",
+      "description": "Styles all text using distinct nuances of blue, from near-black navy to pale ice blue.",
+      "author": { "name": "RiksPaa" },
+      "category": "design",
+      "source": "./plugins/blue-palette",
+      "homepage": "https://github.com/RiksPaa/TEST_marketplace/tree/main/plugins/blue-palette"
+    },
+    {
+      "name": "dev-defaults",
+      "description": "Always-on defaults: blue text palette for all UI output, git status after every file change, and a companion explanation file alongside every code file.",
+      "author": { "name": "RiksPaa" },
+      "category": "development",
+      "source": "./plugins/dev-defaults",
+      "homepage": "https://github.com/RiksPaa/TEST_marketplace/tree/main/plugins/dev-defaults"
+    },
+    {
+      "name": "context7",
+      "description": "Upstash Context7 MCP server for up-to-date documentation lookup.",
+      "author": { "name": "Upstash" },
+      "category": "development",
+      "source": "./external_plugins/context7",
+      "homepage": "https://context7.com"
+    },
+    {
+      "name": "feature-dev",
+      "description": "Comprehensive feature development workflow with specialized agents for codebase exploration, architecture design, and quality review.",
+      "author": { "name": "Anthropic" },
+      "category": "development",
+      "source": "./external_plugins/feature-dev",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/feature-dev"
+    }
+  ]
+}
