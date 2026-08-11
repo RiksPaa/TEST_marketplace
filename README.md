@@ -70,11 +70,32 @@ To add a new plugin, see the instructions in [CLAUDE.md](./CLAUDE.md).
 
 ---
 
+## External plugins
+
+These plugins are maintained by third parties and surfaced here for convenience.
+
+| Plugin | Description |
+|---|---|
+| `context7` | Up-to-date documentation lookup via Upstash Context7 MCP server |
+| `feature-dev` | Guided feature development with explorer, architect, and reviewer agents |
+
+Install them the same way:
+
+```
+/plugin install context7@TEST_marketplace
+/plugin install feature-dev@TEST_marketplace
+```
+
+---
+
 ## Structure
 
 ```
 plugins/
   git-summary/
-    .claude-plugin/plugin.json
-    skills/git-summary/SKILL.md
+  code-explainer/
+  blue-palette/
+external_plugins/
+  context7/
+  feature-dev/
 ```
