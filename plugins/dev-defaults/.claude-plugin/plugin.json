@@ -1,0 +1,7 @@
+{
+  "name": "dev-defaults",
+  "description": "Always-on defaults: blue text palette for all UI output, git status after every file change, and a companion explanation file alongside every code file.",
+  "author": {
+    "name": "RiksPaa"
+  }
+}
