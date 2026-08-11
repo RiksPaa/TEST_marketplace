@@ -24,6 +24,7 @@ You only need to do this once. Claude Code will sync with this repository automa
 |---|---|
 | `git-summary` | Summarize recent git activity, commits, and open PRs |
 | `code-explainer` | Explain a file, function, or code block in plain language |
+| `blue-palette` | Style all text using distinct nuances of blue |
 
 ---
 
